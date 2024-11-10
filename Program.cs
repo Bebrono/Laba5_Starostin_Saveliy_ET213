@@ -16,8 +16,8 @@ namespace laba5_Starostin_Saveliy_ET213
         public class Route
         {
             public string RouteName { get; set; }
-            public List<Station> Stations { get; set; } // Список станций в пути
-            public List<int> TravelTimes { get; set; } // Список времени в пути между двумя соседними станциями 
+            public List<Station> Stations { get; set; }
+            public List<int> TravelTimes { get; set; }
             public int Start { get; set; }
             public int End { get; set; }
             public int Interval { get; set; }
